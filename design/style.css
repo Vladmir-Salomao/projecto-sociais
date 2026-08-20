@@ -1,0 +1,58 @@
+
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 300px;
+}
+body,html{
+    width: 100vw;
+    height: 100vh;
+    background: url(../imagens/images.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main{
+    position: relative;
+    height: 100vh;
+    position: relative;
+}
+#caixa{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: url(../imagens/iphone\ 300-1.png) no-repeat;
+    height: 600px;
+    width: 300px;
+}
+#icons{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    height: 700px;
+    padding: 3px;
+}
+iframe{
+    position: absolute;
+    top: 73px;
+    left: 21px;
+    height: 452px;
+    width: 259px;
+}
+a>img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px 0;
+    transition: 0.5s ease;
+}
+a>img:hover{
+    transform: scale(1.2);
+}
+ul{
+    list-style: none;
+}
