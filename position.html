@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position absolute and relative</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 100vh;
+            width: 100vw;
+            display: flex;  
+        }
+        #pai{
+            position: relative;
+            border: 1px solid black;
+            width: 500px;
+            height: 500px;
+            margin: auto;
+        }
+        #filho{
+            bottom: 50%;
+            right: 50%;
+            position: absolute;
+            border: 1px solid black;
+            width: 200px;
+            height: 200px;
+        }
+        span{
+            background-color: rgb(236, 131, 149);
+        }
+    </style>
+</head>
+<body>
+    <div id="pai">
+        <span>
+            <div id="filho"></div>
+        </span>
+    </div>
+</body>
+</html>
