@@ -36,19 +36,25 @@ a>img:hover{
     border: 1px solid white;
 }
 #telefone{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    translate: -50% -50%;
-    width: 310px;
-    height: 625px;
+    width: 100%;
+    height: 100%;
     background-image: url(../imagens/imagens/frame-iphone.png);
     background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto;
 }
 iframe{
     position: absolute;
     top: 12.8%;
     left: 7%;
-    width: 266px;
-    height: 468px;
+    width: 202.5px;
+    height: 363px;
+}
+div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    height: 480px;
+    width: 250px;
 }
